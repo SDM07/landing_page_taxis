@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="Sebastian Diaz" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Landing Page Taxis Libres</title>
+</head>
+
+<body>
+    <section id="inicio">
+        <div class="circle1"></div>
+        <header>
+            <a href="https://www.taxislibres.com.co/" target="_blank"><img class="log" src="/img/logo_taxislibres_light.png" alt="logo_empresa"></a>
+            <div class="toggle" onclick="toogle_menu()"></div>
+            <ul class="navigation">
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#info">Información</a></li>
+                <li><a href="#premios">Premios</a></li>
+                <li><a href="#contact">Inscripción</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text_box">
+                <h2>¡Gran Hackathon!</h2>
+                <p>
+                    Nos complace anunciar en este 2023 uno de los eventos mas esperados
+                    por los amantes de la programación y apasionados de los retos. Vuelve
+                    la gran hackaton mas recargada que antes, pon a prueba tusconocimientos y habilidades.
+                </p>
+                <a href="#info">Conoce Mas</a>
+            </div>
+            <div class="img_box">
+                <img src="/img/Taxi.png" alt="taxi">
+            </div>
+        </div>
+        <ul class="social_media">
+            <li><a href="https://www.facebook.com/taxislibrescol/?locale=es_LA" target="_blank"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAl1JREFUaEPtmY1NxDAMhX2TAJvAJMAkwCTAJLAJMAnooeTUS2LHf+2p0kWqQNAk/uxn12kPtPNx2Ln9dAE4dwQzI3BNRA9EdEVE+L1e3wUSP3H9ENFnucL8UYBq9H0x2GIQYN6J6K2AWeYe740APBPRk2vX00kVBOuZhwfglog+zDvNJ7hArABZXpdwXohIHQ0LALwO728xkBePmo20AFsaX+1WQWgAMmVTS2o1ElUsJKcZQEbCwmjoGh5tRwX4EiggpdHc/ykzACw881LIg2V9CQAOuOE2kQCi0tFWEzhIAoDtbD5IAL+aKsDcI3qtmaMBwHp3oyc2B/Ba+hovg6hbBwCmDCPKAUS1D822FafajYZv2Ttpc2wYVQ4gIh8YygHAeETXOyAjdLLHMQKIbiJVt2hkOxmNAKL6lxI4CgDvIwpiBKJtw9kBol5aE6BbeyShaALvCqDTpKO8WIvGidNHEbBIKAPAUjRUErIk8dYA6VUoA8AS8a6piz7IMgAsRaPrsUYAmu6w5ioA8HRsx8njfvHP9kyNvSytRdeicL2QJQ9a49cso529HIC1tC0h1gIwtdMWGW0VgaGzpROZpT6vHQHXkRJRQC5oDxwVIltC7kM9DPK8VskG6A4xs3a61bT17UQmwPTNxuy9EGDqNwDtq/QsANVDUgNghcgAUBkvnV1HXbE2ElGAqWysOdDCILFRYrnq5AXAPPQ6XBsyPGpoJdROlqLhATB5PRqB5fzRRz4tgOuTUutJbwS4HIG8AMV9Iqp/D32ZzIyA4wicOyUzArmWKVe7ACgdtdptf+U/mTH7R+SMAAAAAElFTkSuQmCC" /></a>
+            </li>
+            <li><a href="https://www.instagram.com/taxislibres/?hl=es" target="_blank"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAulJREFUaEPtmc3LTVEUxn8vZaIM31IKKSUjGRkIEzJiZOjjP1BvGUhhYCTlP8DUyIChMDMykkyEDGWkDNFTe2vZ7t5nrXPPOdets+t2b/fsvfZ61sez115ngzUfG2uuPzOAVXtw9sA6emAfcBLQ94n0uy+OT0D+vEq/X0aERUJICl8GbkY26DH3NnDLu84LQBZ/4RU6wDx55ZEHiAfA1Mpb/KeAZkh5AHxM8T6AYcMi5In9rVVdABQ28sAqx0PgSk2BLgC/JtBcSaswkaFqBCEvyBv/jBYAMc6DkQGU1hX7LAJRzYUWgJqwCKbM8aJgfcpRUmbNaFVqbQGQ9SUwMjL9KSRK9sjnyCUDpkzSWs5JlrwQCqEo+1Q3KXYtD0SByDmwyEtaXmWjlgciABa5eBuwNyn/GfhZAImEaC8AXgYqLX8ghd4F4GBS+j3wGFDSyjB5REAsNHbLA14AluLOAVvA8UriCOw94Gl6rpBR3NdCx4oZBYAOGFlVQ0BUv9SUz8pIYSXyl/SHl65HAWCtHwmHG8Ad4wUbVjXWGwWAFfoWOOzk3DfAUTPXQxiDA7DMsCdR3XYngB/ATjPXU3ONDuADsMMJ4Duwa9Ue0P7WKgqLI04Ar4Fj/wMAW2RdN4nZheMacNdM8lD24CGk/W01uTtVr2c6tH+W6vuvaZ6XvUYBoESWF3Ktfhq4CpytgNABdh94HrR+Ga5/lg9xEpd1yiZwETgPHAIUHu+AJ+mg+xZknzx9FA9k4aFWSFoULdfDADyHi42UMpxqqaC6R8pH7tq9qlHP4VIqmWt71US1C02fxlj1Yj/FlVIgPdVmi7x6XSlX2dAqwdiq969nLQ/Iap4qsevQGuJ5r7aKNvYeMkMoWZOxVGMrcmMaA8TSrUUptcpcGKS5m1nEe3cdwhOyvBK382VHV2/UKjPVC45mzJfWiQDIa3ObUN+5y9aX58vXS7lB4PZiHwBu4VNMnAFMYeXWHrMHZg8saYHfulacMYHBWrkAAAAASUVORK5CYII=" /></i></a>
+            </li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.cotech.taxislibres&hl=es_CO&gl=US"
+                    target="_blank"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAedJREFUaEPtmeFNxDAMhX2bMApsApMAkwCTwCi3CehJsRRFafyc2imVWun+3CXt++Jnx+nd5OTX7eT65QI4OoJXBM4SgWcReS1iv0Tk7Wjh+nzWQg8i8iEij2XiXUT+BQgDgNXGp4UAC0DeReTzqIgwAL9F4MsGhILg95/VICwAdGGVLQjYCuMQmSWXB4CB0Ggsyw8vAAuxDGQGwAORnh+zAF4IHY+KFZofewBmIML3j70AMxCh+REBMAtRz5suuVEAMxDY9J7K5og+C6XXvRFGAnggavHaYyE/8L0r0aMBGIie+NpCrkTPABhBWOJbELO/ygLoQeA79Xzdmo8SGNEYQmQCtBAQ02vJrQqkUeuOywbAQ5GUeoLDyuN057m0Cz4EoPb8bARgu83ymhmBNmHVz6yNTP8jJFkAW9XGOhSpTWrbDe2WAWCVyhEE5qLq0B1rNIAlXlezhYCtzJrfC0UkACu+B0GveAsRBeAV72oXRkkQAeAVTycos1nsBfCIdydoNgArnqrnjNjIJGbEh/k8OgcY8aE+jwSwxKO+u05Us9bReZ4kHolP9fneCHyXG/QOI6d4vY4/NbD6dRe5JEEZezEW0vsgEoBY9uY5GoC53/IxnggsF8c88AJgVilzzBWBzNVl7v0Hd3W1MRKdfAIAAAAASUVORK5CYII=" /></a>
+            </li>
+            <li><a href="https://apps.apple.com/co/app/taxis-libres-pasajeros/id686270238" target="_blank"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAhBJREFUaEPtmQ1KAzEQRqcnUU+i3kRPop5EexL1JHoT5cEOpEtKvtkkUxYaKLSQZL83v9n0YDsfh53rtyvApT14KQ88mBmfF7O+KMgGuDWz90W8O69LQ9fiYPhg8c/Vmg8zew7uczI9C6AmHiGIB2LzyALA8kCU49fM7jYrXxZmADwtcb/W+mhmX3sAIGmBKEd36AypAKL1fsyM6sMgbBDfbflsAIR/LwnL92GjJwewKqFxX1gYy7rQmsjaGuYdF6+EPbMFoNaM1mKxssPw3btuy/LMBea1NXFrCJ2r5+rz1HlvKkTEA1niHVKCUAEIG6pJ1pCrlQpQq+WzYEIdWgX4m6W2sm+oQysA544CM5jCp1MFIDN8ONyFGp0CUB4FZli93FPRc6JBWZAFQOMj/kNDAchK4FD1iXTiLA9MA6i9TYXcHJgcKqHsq4RQJsCUMsrJkPubjCEfISI5kH2IC+WCEkLZBzmMCwT50GxqCgAbZuaBR4f0cqMCZIeRQzSTWgVQXiNnJHnz+kUFQFzmqZTnSUeLCEC2F6SmFgHAKlm5IFlf7cTr2M5obJL1twLMDiVZ/FYA1gFBb/A7z1EVqFk21w+K5kC5vgXhXZSbtpsFdv0fQbmfdA80EsA94fejiPPuSRLW7jmBZp7fp/KbNYgP34v2hNCokOnepyeEuh8+YoMrwAgr9uxx9UCP9Uas/Qf6ZWAx9yx0SwAAAABJRU5ErkJggg==" /></a>
+            </li>
+        </ul>
+        <div class="circle2"></div>
+    </section>
+    <section id="info">
+        <div class="circle3"></div>
+        <div class="content">
+            <div class="text_box">
+                <h2>¿Qué es el hackathon?</h2>
+                <p>
+                    Es una competencia realizada de forma global para que 
+                    las personas se reten y prueben sus conocimientos en 
+                    programación, resolviendo problemas mediante de soluciones 
+                    tecnológicas. 
+                </p>
+                <br>
+                <h3><span>Fecha: </span>10 de junio de 2023</h3>
+                <h3><span>Ubicación: </span>De forma remota</h3>
+                <a href="#premios">¿Qué ganarías?s</a>
+            </div>
+            <div class="img_box2">
+                <img src="/img/computadora.webp" alt="taxi">
+            </div>
+        </div>
+        <div class="circle4"></div>
+    </section>
+    <section id="premios">
+        <div class="circle1"></div>
+        <div class="content">
+            <div class="text_box">
+                <h2>¡PREMIACIÓN MÚLTIPLE¡</h2>
+                <p>
+                    Contaremos con premios en efectivo, oportunidades de inversión, 
+                    becas para que sigas ampliando tus conocimientos, ser parte del 
+                    equipo de trabajo de nuestros patrocinadores, entre otros.
+                </p>
+                <br>
+                <h3>Patrocinadores</h3>
+                <img class="patro" src="/img/Logo TGI.png" alt="tgi_logo">
+                <img class="patro" src="/img/Ecopetrol_logo.svg.png" alt="ecopetrol_logo">
+                <img class="patro" src="/img/Davivienda_logo.png" alt="davivienda_logo">
+                <br>
+                <a class="btn_cont" href="#contact">Regístrate</a>
+            </div>
+            <div class="img_box">
+                <img src="/img/premio.png" alt="taxi">
+            </div>
+        </div>
+        <div class="circle2"></div>
+    </section>
+    <section id="contact">
+        <div class="circle3"></div>
+        <div class="content2"></br>
+            <h2>Registrate</h2>
+            <form action="#"></form>
+            <div>
+                <label for="">Nombre: </label></br>
+                <input type="text" name="Nombre" id="nombre">
+            </div>
+            <div>
+                <label for="">Correo: </label></br>
+                <input type="email" name="Correo" id="mail">
+            </div>
+            <div>
+                <label for="">Número de teléfono: </label></br>
+                <input type="text" name="numero" id="phone_number">
+            </div>
+            <div>
+                <label for="">Cuentanos de ti: </label></br>
+                <textarea name="cuentanos_de_ti" id="opinion" cols="30" rows="10"></textarea>
+            </div>
+            <input class="boton_env" type="button" value="Enviar">
+            </form>
+        </div>
+        <div class="circle4"></div>
+    </section>
+    <script>
+        function toogle_menu() {
+            const menu_toggle = document.querySelector('.toggle');
+            const navigation = document.querySelector('.navigation');
+            menu_toggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
